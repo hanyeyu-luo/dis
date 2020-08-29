@@ -1,0 +1,270 @@
+*{
+    padding: 0;margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid red;
+    margin-top: 20px ;
+    margin-left: 100px;
+    float: left;
+    width: 500px;
+    height: 35px;
+}
+
+
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left input {
+    width: 100%;
+    border: none;
+    outline: none;
+    text-indent: 1em;  /*  输入框字体缩进   */
+}
+
+
+
+
+.right {
+    width: 100px;
+    text-align: center;
+    line-height: 41px;  /*  35height+2* 3border = 41 居中    */
+    background: red;
+}
+.box {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    /* padding-bottom: 10px; */
+}
+
+.carousel {
+    z-index: 1;
+    position: absolute;
+}
+
+li {
+    list-style: none;
+}
+
+.carousel li {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel li.active {
+    z-index: 1;
+}
+
+.carousel li img {
+    width: 800px;
+    height: 460px;
+}
+
+.btns {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    height: 80px;
+    margin-top: -40px;
+    left: 0;
+    right: 0;
+}
+
+.btns div {
+    width: 40px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+    background-color: rgba(56, 133, 89, .4)
+}
+
+.btns div:first-child {
+    float: left;
+}
+
+.btns div:last-child {
+    float: right;
+}
+
+.cirs {
+    z-index: 1;
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+    right: 25%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cirs li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+}
+
+.cirs li.active {
+    background-color: pink;
+}
+.boxtop{
+   margin: 0 auto; width: 1200px;
+}
+.boxtop_top{
+     width: 1200px; height: 100%;
+}
+.boxtop_top_div{
+    height: 80px;
+    display: flex;
+    width: 1200px;
+}
+.boxtop_top_div2{
+    width: 300px;
+    display: flex;
+}
+.boxtop_top_div2 h3{
+    flex: 1;
+    line-height: 60px;
+    color: #666;
+    
+}
+
+.boxtop_top_div .span{
+    display: block;
+    flex: 1;
+    margin-top: 2px;
+    width: 134px;
+    height: 42px;
+    background: url(//misc.360buyimg.com/jdf/1.0.0/unit/global-header/5.0.0/i/jdlogo-201708-@1x.png) no-repeat 0 0;;
+}
+.boxtop_dl a{
+    line-height: 70px;
+    padding-left: 60px;
+    color: aqua;
+}
+.boxcenct{
+    background-color:blue;float:left; width: 200px;height: 400px;
+}
+
+.boxtop_top_div3{
+    float: left;
+    padding-top: 10px;
+}
+.boxzn{
+   
+    height: 80px;
+    /* background-color: aqua;     */
+}
+.boxzn div{
+    width: 190px;
+    text-align: center;
+    /* height: 50px; */
+    height: 40px;
+    background-color: rgb(65, 71, 219);
+    /* background-color: rgb(65, 71, 219); */
+    font-size: 26px;
+    float: left;
+    
+}
+.boxzn ul{
+    float: left;
+    /* display: flex;
+    width: 800px; */
+}
+.boxzn ul li{
+    float: left;
+    padding:0 20px ;
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+
+.boxcenter{
+    height: 400px;
+}
+.boxcenter .boxcenter{
+    height: 100%;
+}
+a:hover{color:#f00;}
+a:link {
+    text-decoration: none;
+    }
+    .boxcenct ul li{
+        height: 100px; 
+        border-color: rgb(228, 229, 234) transparent transparent;
+        background-color: rgb(255, 255, 255); 
+    }   
+    .boxcenct ul li div{
+        text-align: center;
+    }
+    .boxcenct ul li p{
+        padding-top: 10px;
+        display: flex;
+        font-size: 12px;
+        color: #85878c;
+        
+    }
+    .boxcenct ul li p span{
+        /* text-align: center; */
+        flex: 1;
+    } 
+    .boxrlright{
+        background: chartreuse;
+        float: left;width: 190px;
+        height: 100%;
+        margin-left: 10px;
+    }
+    .boxrig_top{
+        margin-top: 30px;
+        height: 220px;
+        background-color: rgb(52, 53, 73);
+        
+    }
+    .boxrig_top h5{
+        padding: 50px  0 20px 0;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+    }
+    .boxrig_top p{
+        color: #fff;
+        display: flex;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+    .boxrig_top p span{
+        flex:1;
+    }
+    .boxrig_top .pl {
+        text-align: center;
+        
+    } 
+    .boxrig_botton{
+        width: 100%;
+        height: 150px;
+        background-color:#fff;
+        
+    }
+    .boxrig_botton h5{
+        font-size: 20px;
+        color: #85878c;
+        text-align: center;
+    }
+    .boxrig_botton p{
+        font-size: 14px;
+        padding-top: 10px;
+        padding-left: 20px;
+        /* color: azure; */
+    }

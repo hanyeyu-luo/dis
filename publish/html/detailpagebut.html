@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Document</title></head><body><style>.container {
+            display: flex;
+            justify-content: space-between;
+            border: 3px solid red;
+            margin-top: 20px;
+            margin-left: 100px;
+            float: left;
+            width: 300px;
+            height: 26px;
+        }
+
+
+
+        .left {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .left input {
+            width: 100%;
+            border: none;
+            outline: none;
+            text-indent: 1em;
+            /*  输入框字体缩进   */
+        }
+
+
+
+
+        .right {
+            width: 100px;
+            text-align: center;
+            line-height: 26px;
+            /*  35height+2* 3border = 41 居中    */
+            background: red;
+        }</style><div style="width: 1000px;margin:0 auto;justify-content: center;display: flex;"><div style="flex: 1;"><div id="box3" style="width: 350px;"><h3>详情页</h3></div></div><div class="container"><div class="left"><input type="text" placeholder="自营"></div><div class="right">搜索</div></div></div><!-- <button style="background-color:red;width: 140px;height: 46px; color: white;">加入购物车</button> --><div id="box" style="height: 100%;width: 1200px;"></div><script src="../js/jquery.js"></script><script src="../js/detailpage.js"></script><!-- <script src="../js/data.js"></script> --></body></html>
